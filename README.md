@@ -10,7 +10,7 @@ https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation
 
 ## Objective
 
-The objective here is to train a reliable model to determine if a compound is biodegradable or not.
+The objective here is to obtain a reliable model to determine if a compound is biodegradable or not.
 
 ## Preview of the Exploratory Data Analysis (EDA)
 
