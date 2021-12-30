@@ -28,6 +28,7 @@ With Cross-validation: evaluating estimator performance,
 
 ## Selecting Random Forest and SVM
 Since it provides the overall best performance, we've selected the two best models.
+![Model Selection](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/Model_Performances.png "Model Selection")
 
 ## Model Testing
 
