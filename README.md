@@ -77,11 +77,45 @@ Wall time: 7.99 s
 ```
 
 ### Random Forest
+```
+Fitting 3 folds for each of 144 candidates, totalling 432 fits
+Best parameters: {'max_depth': 40, 'max_features': 2, 'min_samples_leaf': 1, 'min_samples_split': 9, 'n_estimators': 2000}
+Train Result:
+================================================
+Accuracy Score: 97.22%
+_______________________________________________
+CLASSIFICATION REPORT:
+                    0           1  accuracy   macro avg  weighted avg
+precision    0.971253    0.973196  0.972222    0.972224      0.972224
+recall       0.973251    0.971193  0.972222    0.972222      0.972222
+f1-score     0.972251    0.972194  0.972222    0.972222      0.972222
+support    486.000000  486.000000  0.972222  972.000000    972.000000
+_______________________________________________
+Confusion Matrix: 
+ [[473  13]
+ [ 14 472]]
 
+Test Result:
+================================================
+Accuracy Score: 86.08%
+_______________________________________________
+CLASSIFICATION REPORT:
+                    0           1  accuracy   macro avg  weighted avg
+precision    0.915423    0.765217  0.860759    0.840320      0.865513
+recall       0.872038    0.838095  0.860759    0.855067      0.860759
+f1-score     0.893204    0.800000  0.860759    0.846602      0.862234
+support    211.000000  105.000000  0.860759  316.000000    316.000000
+_______________________________________________
+Confusion Matrix: 
+ [[184  27]
+ [ 17  88]]
 
+CPU times: user 5.28 s, sys: 269 ms, total: 5.55 s
+Wall time: 3min 47s
+```
 
 ## Summary
 
-+ Support Vector Machine achieved an accuracy of 89 %
++ Support Vector Machine achieved an accuracy of **89 %**
 + Model is trained on a **balanced class dataset**, using Oversampling with the Synthetic Minority Oversampling Technique (SMOTE)
 + This model could be used as a Proof of Concept for the use of simulation on compounds to determine whether it is biodegradable or not.
