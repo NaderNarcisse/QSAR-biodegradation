@@ -12,7 +12,13 @@ https://archive.ics.uci.edu/ml/datasets/QSAR+biodegradation
 
 The objective here is to train a reliable model to determine if a compound is biodegradable or not.
 
-## Exploratory Data Analysis (EDA)
+## Preview of the Exploratory Data Analysis (EDA)
+
+![Correlation Matrix](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/Correlation_between_features.png "Correlation Matrix")
+
+
+![Correlation Matrix for each class](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/Correlation_seperate_class.png "Correlation Matrix for each class")
+
 
 
 ## Model Selection
