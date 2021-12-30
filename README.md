@@ -39,7 +39,7 @@ Since it provides the overall best performance, we've selected the two best mode
 ## Model Testing
 
 ### SVM Support Vector Machine
-`
+```
 Fitting 4 folds for each of 216 candidates, totalling 864 fits
 Best params: {'C': 3, 'gamma': 0.2, 'kernel': 'rbf'}
 Train Result:
@@ -74,7 +74,7 @@ Confusion Matrix:
 
 CPU times: user 676 ms, sys: 139 ms, total: 815 ms
 Wall time: 7.99 s
-`
+```
 
 ### Random Forest
 
