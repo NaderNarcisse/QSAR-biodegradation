@@ -19,7 +19,10 @@ The objective here is to obtain a reliable model to determine if a compound is b
 
 ![Correlation Matrix for each class](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/Correlation_seperate_class.png "Correlation Matrix for each class")
 
+## Data Augmentation with Synthetic Minority Oversampling Technique - Oversampling
 
+In this project the imbalanced class dataset was dealt by using and oversampling algorithm, Synthetic Minority Oversampling Technique, or SMOTE for short.
+Imbalanced classes are a common problem in machine learning classification where there are a disproportionate ratio of observations in each class.
 
 ## Model Selection
 With Cross-validation: evaluating estimator performance,
