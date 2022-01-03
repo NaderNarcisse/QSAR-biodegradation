@@ -21,10 +21,12 @@ The objective here is to obtain a reliable model to determine if a compound is b
 
 ## Data Augmentation with SMOTE - Oversampling
 
-![SMOTE](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/SMOTE.png "SMOTE")
+![Target_distribution](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/Data_distribution.png "Target_distribution")
 
 In this project the imbalanced class dataset was dealt by using an oversampling algorithm, **Synthetic Minority Oversampling Technique**, or **SMOTE** for short.
 Imbalanced classes are a common problem in machine learning classification where there are a disproportionate ratio of observations in each class.
+
+![SMOTE](https://github.com/NaderNarcisse/QSAR-biodegradation/blob/main/Pictures/SMOTE.png "SMOTE")
 
 ## Model Selection
 With Cross-validation: evaluating estimator performance,
